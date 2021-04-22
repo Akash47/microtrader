@@ -1,5 +1,5 @@
-FROM dockerproductionaws/microtrader-base
-MAINTAINER Justin Menga <justin.menga@gmail.com>
+FROM 839431922263.dkr.ecr.us-east-2.amazonaws.com/dockerproductionaws/microtrader-base
+MAINTAINER Akash nigam <Akashnigam802@gmail.com>
 LABEL application.component=microtrader-portfolio
 
 # Copy application artefacts

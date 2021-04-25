@@ -10,7 +10,7 @@ TEST_REPO_NAME ?= microtrader-dev
 TEST_DIR ?= build/test-results/junit/
 
 # Use these settings to specify a custom Docker registry
-DOCKER_REGISTRY ?= 839431922263.dkr.ecr.us-east-2.amazonaws.com
+DOCKER_REGISTRY ?= 839431922263.dkr.ecr.ap-south-1.amazonaws.com
 
 # Expression to login to Docker registry
 AWS_ACCOUNT_ID ?= 839431922263

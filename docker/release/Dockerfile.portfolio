@@ -1,4 +1,4 @@
-FROM 839431922263.dkr.ecr.us-east-2.amazonaws.com/dockerproductionaws/microtrader-base
+FROM 839431922263.dkr.ecr.ap-south-1.amazonaws.com/dockerproductionaws/microtrader-base
 MAINTAINER Akash nigam <Akashnigam802@gmail.com>
 LABEL application.component=microtrader-portfolio
 

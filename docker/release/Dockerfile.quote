@@ -1,4 +1,4 @@
-FROM 839431922263.dkr.ecr.us-east-2.amazonaws.com/dockerproductionaws/microtrader-base
+FROM 839431922263.dkr.ecr.ap-south-1.amazonaws.com/dockerproductionaws/microtrader-base
 MAINTAINER Akash Nigam <Akashnigam802@gmail.com>
 LABEL application.component=microtrader-quote
 HEALTHCHECK --interval=3s --retries=20 CMD curl -fs http://localhost:${HTTP_PORT:-35000}/${HTTP_ROOT}
